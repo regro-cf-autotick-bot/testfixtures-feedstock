@@ -20,7 +20,7 @@ requirements:
     - hatchling
   run:
     - python >={{ python_min }}
-    - typing_extensions >=4.12
+    - typing_extensions >=4.12   # [py<313]
 
 test:
   requires:
